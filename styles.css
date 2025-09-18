@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(214, 17%, 92%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+img {
+  border-radius: 50%;
+  height: 36px;
+}
+.main-container {
+  display: grid;
+  padding: 4rem 1.75rem;
+  gap: 2rem;
+}
+.post {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.first-avatar {
+  border: 2px solid hsl(264, 82%, 80%);
+}
+.second-avatar {
+  border: 2px solid hsl(224, 10%, 45%);
+}
+.fourth-avatar {
+  border: 2px solid hsl(263, 55%, 52%);
+}
+.title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+.user-header {
+  display: flex;
+}
+.user-title {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+.graduate {
+  color: hsl(214, 17%, 92%);
+  font-size: 13px;
+  font-weight: 400;
+}
+.first {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+.second {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+}
+.third {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 7%);
+}
+.fourth {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+.fifth {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 7%);
+}
+.second .graduate {
+  color: hsl(0, 0%, 81%);
+}
+.third .name {
+  color: hsl(217, 19%, 35%);
+}
+.third .graduate {
+  color: hsl(217, 19%, 35%);
+}
+.fifth .name {
+  color: hsl(217, 19%, 35%);
+}
+.fifth .graduate {
+  color: hsl(224, 10%, 45%);
+}
