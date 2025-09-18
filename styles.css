@@ -25,6 +25,7 @@ img {
 .post {
   padding: 2rem;
   border-radius: 1rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 .first-avatar {
   border: 2px solid hsl(264, 82%, 80%);
@@ -75,6 +76,9 @@ img {
 .second .graduate {
   color: hsl(0, 0%, 81%);
 }
+.third .title, .third .content {
+    color: hsl(224, 10%, 45%);
+}
 .third .name {
   color: hsl(217, 19%, 35%);
 }
@@ -86,4 +90,7 @@ img {
 }
 .fifth .graduate {
   color: hsl(224, 10%, 45%);
+}
+.fifth .title, .fifth .content {
+    color: hsl(224, 10%, 45%);
 }
