@@ -10,8 +10,7 @@ body {
   align-items: center;
   background-color: hsl(214, 17%, 92%);
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
 }
 img {
   border-radius: 50%;
@@ -76,8 +75,9 @@ img {
 .second .graduate {
   color: hsl(0, 0%, 81%);
 }
-.third .title, .third .content {
-    color: hsl(224, 10%, 45%);
+.third .title,
+.third .content {
+  color: hsl(224, 10%, 45%);
 }
 .third .name {
   color: hsl(217, 19%, 35%);
@@ -91,6 +91,42 @@ img {
 .fifth .graduate {
   color: hsl(224, 10%, 45%);
 }
-.fifth .title, .fifth .content {
-    color: hsl(224, 10%, 45%);
+.fifth .title,
+.fifth .content {
+  color: hsl(224, 10%, 45%);
+}
+
+@media (min-width: 1100px) {
+  body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: calc((100vw - 1100px) / 3);
+    margin-right: calc((100vw - 1100px) / 3);
+  }
+  .first {
+    grid-row: 1 / 2;
+    grid-column: 1 / span 2;
+  }
+  .second {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+  }
+  .third {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+  .fourth {
+    grid-row: 2 / 3;
+    grid-column: 2 / span 2;
+  }
+  .fifth {
+    grid-row: 1 / span 2;
+    grid-column: -1 / -2;
+  }
 }
